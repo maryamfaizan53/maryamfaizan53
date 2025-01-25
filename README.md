@@ -8,25 +8,25 @@ Certainly! Here's an enhanced and more engaging version of the profile README fo
 I'm a passionate software developer with a keen interest in web development and artificial intelligence. I enjoy creating robust and scalable applications, and I'm always eager to learn new technologies and improve my skills.
 
 - 🌱 I’m currently learning advanced React and diving deeper into machine learning.
-- 💼 I’m currently working as a Full Stack Developer at [Your Company].
+- 💼 I’m currently Studing AI at [GIAIC Governer Initiative of Artificial Intelligence, web 3.0 and Meta 2.0].
 - 💬 Ask me about JavaScript, Python, or anything related to web development.
-- 📫 How to reach me: [maryamfaizan53@example.com](mailto:maryamfaizan53@example.com)
-- ⚡ Fun fact: I love painting and sketching in my free time.
+- 📫 How to reach me: [www.linkedin.com/in/maryam-faizan-b86965323](mailto:maryam.faizanmianoor@gmail.com)
+- ⚡ Fun fact: I love scrolling Instagram and taking snaps in my free time.
 
 ## Skills
 
 ### Languages
 - JavaScript
 - Python
-- C++
+- Typescript
 - HTML & CSS
 
 ### Frameworks & Libraries
 - React
 - Node.js
 - Express
-- Django
-- TensorFlow
+- Mongobd
+- Next.js
 
 ### Tools & Platforms
 - Git & GitHub
@@ -35,18 +35,18 @@ I'm a passionate software developer with a keen interest in web development and 
 
 ## Projects
 
-### [Project 1: E-commerce Website](https://github.com/maryamfaizan53/e-commerce-website)
+### [Project 1: E-commerce Website](https://main-hackathon-proj-final-updates-latest-v5.vercel.app/)
 An online platform for buying and selling products, featuring user authentication, payment integration, and real-time order tracking.
 
 ### [Project 2: AI Chatbot](https://github.com/maryamfaizan53/ai-chatbot)
 A conversational AI chatbot built using Python and TensorFlow, capable of understanding and responding to user queries in real-time.
 
-### [Project 3: Portfolio Website](https://github.com/maryamfaizan53/portfolio-website)
+### [Project 3: Portfolio Website](https://portfolio-nextjs-tailwind-flax.vercel.app/)
 A personal portfolio website to showcase my projects, skills, and contact information, built using React and hosted on AWS.
 
 ## Connect with Me
 
-- [LinkedIn](https://www.linkedin.com/in/maryamfaizan53)
+- [LinkedIn](https://www.linkedin.com/in/maryam-faizan-b86965323)
 - [Twitter](https://twitter.com/maryamfaizan53)
 - [GitHub](https://github.com/maryamfaizan53)
 
