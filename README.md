@@ -2,7 +2,6 @@ Certainly! Here's an enhanced and more engaging version of the profile README fo
 
 ```markdown
 # Hi there, I'm Maryam! 👋
-
 ## About Me
 
 I'm a passionate software developer with a keen interest in web development and artificial intelligence. I enjoy creating robust and scalable applications, and I'm always eager to learn new technologies and improve my skills.
