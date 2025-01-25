@@ -1,85 +1,66 @@
-Certainly! Here's an enhanced and more engaging version of the profile README for `maryamfaizan53`:
+# Hi there, I'm Maryam Faizan! 👋
 
-```markdown
-# Hi there, I'm Maryam! 👋
-## About Me
+![Profile Views](https://komarev.com/ghpvc/?username=maryamfaizan53&color=blue)
+![GitHub Followers](https://img.shields.io/github/followers/maryamfaizan53?label=Followers&style=social)
+![GitHub Stars](https://img.shields.io/github/stars/maryamfaizan53?label=Stars&style=social)
 
-I'm a passionate software developer with a keen interest in web development and artificial intelligence. I enjoy creating robust and scalable applications, and I'm always eager to learn new technologies and improve my skills.
-
-- 🌱 I’m currently learning advanced React and diving deeper into machine learning.
+Welcome to my GitHub profile! I'm a passionate developer always looking to learn and grow. Here you'll find a collection of my projects, contributions, and interests.
+🌱 I’m currently learning advanced React and diving deeper into machine learning.
 - 💼 I’m currently Studing AI at [GIAIC Governer Initiative of Artificial Intelligence, web 3.0 and Meta 2.0].
-- 💬 Ask me about JavaScript, Python, or anything related to web development.
-- 📫 How to reach me: [www.linkedin.com/in/maryam-faizan-b86965323](mailto:maryam.faizanmianoor@gmail.com)
-- ⚡ Fun fact: I love scrolling Instagram and taking snaps in my free time.
 
-## Skills
+## 🚀 Skills
 
-### Languages
-- JavaScript
-- Python
-- Typescript
-- HTML & CSS
+- **Languages**: Python, JavaScript, Java, typescript
+- **Frameworks**: React, Node.js, Django, Angular, Next.js
+- **Tools**: Git, Docker, sanity , vercel
+- **Databases**: MySQL, MongoDB, PostgreSQL
 
-### Frameworks & Libraries
-- React
-- Node.js
-- Express
-- Mongobd
-- Next.js
+## 🔭 Current Projects
 
-### Tools & Platforms
-- Git & GitHub
-- Docker
-- AWS
+- [**Project 1**](https://main-hackathon-proj-final-updates-latest-v5.vercel.app/): E-commerce Website.
+- [**Project 2**](https://portfolio-nextjs-tailwind-flax.vercel.app/): My Portfolio.
+- [**Project 3**](https://rainbow-rattle.vercel.app/): A Toy Store Website.
 
-## Projects
+## 🌱 Learning Goals
 
-### [Project 1: E-commerce Website](https://main-hackathon-proj-final-updates-latest-v5.vercel.app/)
-An online platform for buying and selling products, featuring user authentication, payment integration, and real-time order tracking.
+- Deepening my knowledge of cloud computing and DevOps.
+- Exploring machine learning and artificial intelligence.
+- Contributing to open-source projects.
 
-### [Project 2: AI Chatbot](https://github.com/maryamfaizan53/ai-chatbot)
-A conversational AI chatbot built using Python and TensorFlow, capable of understanding and responding to user queries in real-time.
+## 📫 How to Reach Me
 
-### [Project 3: Portfolio Website](https://portfolio-nextjs-tailwind-flax.vercel.app/)
-A personal portfolio website to showcase my projects, skills, and contact information, built using React and hosted on AWS.
+- **Email**: [www.linkedin.com/in/maryam-faizan-b86965323](mailto:maryam.faizanmianoor@gmail.com)
+- **LinkedIn**: [maryamfaizan](https://www.linkedin.com/in/maryam-faizan-b86965323)
+- **Twitter**: [@maryamfaizan](https://twitter.com/maryamfaizan)
 
-## Connect with Me
+## 📊 GitHub Stats
 
-- [LinkedIn](https://www.linkedin.com/in/maryam-faizan-b86965323)
-- [Twitter](https://twitter.com/maryamfaizan53)
-- [GitHub](https://github.com/maryamfaizan53)
+![Maryam's GitHub Stats](https://github-readme-stats.vercel.app/api?username=maryamfaizan53&show_icons=true&theme=radical)
+![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=maryamfaizan53&layout=compact&theme=radical)
 
----
+## 🏆 Achievements
 
-# Welcome to My GitHub Profile!
+- **Achievement 1**: Bsc in Environmental science.
+- **Achievement 2**: Webdevelopment in SMIT.
+- **Achievement 3**: Studying AI in GIAIC.
 
-I'm thrilled to have you here. As a dedicated and enthusiastic software developer, I am always exploring the latest trends in technology and pushing the boundaries of what's possible. My journey in the tech world is driven by a love for innovation and a commitment to excellence.
+## 🧩 Fun Facts
 
-## 🚀 My Mission
-
-To build user-centric applications that not only solve problems but also create delightful experiences. I strive to contribute to projects that make a positive impact on society and empower users through technology.
-
-## 🌟 Highlights
-
-- **Innovative Solutions**: I have successfully delivered projects that incorporate cutting-edge technologies and innovative approaches.
-- **Collaborative Spirit**: I thrive in team environments, where collaboration and knowledge sharing lead to greater achievements.
-- **Continuous Learning**: I am a lifelong learner, constantly seeking new challenges and opportunities to expand my skill set.
-
-## 📊 My Expertise
-
-### Frontend Development
-Crafting responsive and interactive user interfaces with a focus on performance and accessibility.
-
-### Backend Development
-Building robust and scalable server-side applications, ensuring seamless communication between frontend and backend.
-
-### Machine Learning
-Applying machine learning algorithms to solve complex problems and enhance user experiences.
+- I love solving puzzles and brain teasers.
+- I'm a Tea enthusiast.
+- I enjoy hiking and exploring nature.
+- I love Makeup and Skincare products.
 
 ---
 
-Feel free to explore my repositories and don't hesitate to reach out if you have any questions or collaboration ideas. Let's create something amazing together!
+Feel free to explore my repositories and reach out if you'd like to collaborate!
 
-```
+
+
+
+
+
+
+
 
 
