@@ -10,7 +10,7 @@ Welcome to my GitHub profile! I'm a passionate developer always looking to learn
 
 ## 🚀 Skills
 
-- **Languages**: Python, JavaScript, Java, typescript
+- **Languages**: Python, JavaScript, Java, typescript, html,css ,tailwind 
 - **Frameworks**: React, Node.js, Django, Angular, Next.js
 - **Tools**: Git, Docker, sanity , vercel
 - **Databases**: MySQL, MongoDB, PostgreSQL
