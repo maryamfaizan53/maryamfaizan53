@@ -18,7 +18,7 @@ Welcome to my GitHub profile! I'm a passionate developer always looking to learn
 ## 🔭 Current Projects
 
 - [**Project 1**](https://main-hackathon-proj-final-updates-latest-v5.vercel.app/): E-commerce Website.
-- [**Project 2**](https://portfolio-nextjs-tailwind-flax.vercel.app/): My Portfolio.
+- [**Project 2**](https://maryams-portfolio-new.vercel.app/): My Portfolio.
 - [**Project 3**](https://rainbow-rattle.vercel.app/): A Toy Store Website.
 
 ## 🌱 Learning Goals
