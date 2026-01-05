@@ -4,6 +4,7 @@
   <img src="https://raw.githubusercontent.com/MaryamKalantarii/MaryamKalantarii/output/github-contribution-grid-snake.svg" alt="Snake animation" />
 </p>
 
+![My Website](https://www.maryamfaizan.online/&color=pink)
 ![Profile Views](https://komarev.com/ghpvc/?username=maryamfaizan53&color=blue)
 ![GitHub Followers](https://img.shields.io/github/followers/maryamfaizan53?label=Followers&style=social)
 ![GitHub Stars](https://img.shields.io/github/stars/maryamfaizan53?label=Stars&style=social)
