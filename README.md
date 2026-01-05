@@ -49,7 +49,7 @@ Welcome to my GitHub profile! I'm a passionate developer always looking to learn
 - **Email**: [www.linkedin.com/in/maryam-faizan-b86965323](mailto:maryam.faizanmianoor@gmail.com)
 - **LinkedIn**: [maryamfaizan](https://www.linkedin.com/in/maryam-faizan-b86965323)
 - **Twitter**: [@maryamfaizan](https://twitter.com/maryamfaizan)
-- **Website**: [maryamfaizan](www.maryamfaizan.online)
+- **Website**: [maryamfaizan](https://www.maryamfaizan.online/)
 
 
 ## 🏆 Achievements
