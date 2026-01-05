@@ -4,7 +4,7 @@
   <img src="https://raw.githubusercontent.com/MaryamKalantarii/MaryamKalantarii/output/github-contribution-grid-snake.svg" alt="Snake animation" />
 </p>
 
-![My Website](https://www.maryamfaizan.online/&color=pink)
+
 ![Profile Views](https://komarev.com/ghpvc/?username=maryamfaizan53&color=blue)
 ![GitHub Followers](https://img.shields.io/github/followers/maryamfaizan53?label=Followers&style=social)
 ![GitHub Stars](https://img.shields.io/github/stars/maryamfaizan53?label=Stars&style=social)
@@ -49,6 +49,7 @@ Welcome to my GitHub profile! I'm a passionate developer always looking to learn
 - **Email**: [www.linkedin.com/in/maryam-faizan-b86965323](mailto:maryam.faizanmianoor@gmail.com)
 - **LinkedIn**: [maryamfaizan](https://www.linkedin.com/in/maryam-faizan-b86965323)
 - **Twitter**: [@maryamfaizan](https://twitter.com/maryamfaizan)
+- **Website**: [maryamfaizan](www.maryamfaizan.online)
 
 
 ## 🏆 Achievements
