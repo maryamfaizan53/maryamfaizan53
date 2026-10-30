@@ -7,6 +7,7 @@
 </p>
 
 <p align="center">
+  <a href="https://www.maryamfaizan.online/?ask=1"><img src="https://img.shields.io/badge/💬_Ask_my_AI_agent_about_me-A78BFA?style=for-the-badge" alt="Ask my AI agent about me" /></a>
   <a href="https://www.maryamfaizan.online"><img src="https://img.shields.io/badge/Portfolio-maryamfaizan.online-7c6cf0?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Portfolio" /></a>
   <a href="https://www.linkedin.com/in/maryam-faizan-b86965323"><img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
   <a href="https://x.com/maryammm556"><img src="https://img.shields.io/badge/X-@maryammm556-000000?style=for-the-badge&logo=x&logoColor=white" alt="X" /></a>
@@ -26,7 +27,7 @@ I design, build and ship **AI agents that handle real work**: answering customer
 
 ### 🚀 Featured agents
 
-> Every project below has a short demo video on **[maryamfaizan.online](https://www.maryamfaizan.online/#work)**.
+> Every project below has a short demo video on **[maryamfaizan.online](https://www.maryamfaizan.online/#work)**. Questions? **[Ask my AI agent →](https://www.maryamfaizan.online/?ask=1)**, which I built to answer them.
 
 <table>
   <tr>
@@ -78,6 +79,111 @@ I design, build and ship **AI agents that handle real work**: answering customer
   <a href="https://www.aibazar.pk"><b>AI Bazar</b></a>, my store with 200+ products ·
   <a href="https://www.maryamfaizan.online/#work"><b>all demos →</b></a>
 </p>
+
+### 🧩 How they work
+
+<sub>Click a project to open its architecture.</sub>
+
+<details>
+<summary><b>📈 BotIQ</b>: one multi-tenant backend serving many PSX firms</summary>
+
+```mermaid
+flowchart LR
+    U["👤 Investor<br/>WhatsApp · Telegram"] --> W["Webhook<br/>FastAPI"]
+    W --> T{"Which firm?<br/>tenant lookup"}
+    T --> L["Rate limit<br/>Redis"]
+    L --> A(["🤖 Gemini agent"])
+    A -->|"semantic search"| F[("FAISS index<br/>firm's PDFs<br/>multilingual embeddings")]
+    A -->|"tool call"| P["📊 Live PSX prices"]
+    A --> R["Answer in English or Urdu"]
+    R --> U
+    D[("PostgreSQL<br/>tenants · chats · usage")] -.-> T
+```
+
+</details>
+
+<details>
+<summary><b>🎙️ Meeting Buddy</b>: from a Discord call to owned Trello tasks</summary>
+
+```mermaid
+flowchart TB
+    S["💬 'start meeting'<br/>in Discord"] --> Rec["🎧 Recorder<br/>mic + system audio"]
+    Rec --> E["💬 'end meeting'"]
+    E --> C{"Any audio<br/>captured?"}
+    C -->|"no"| H["Says so honestly<br/>no invented summary"]
+    C -->|"yes"| STT["Speech-to-text"]
+    STT --> A(["🤖 OpenClaw agent"])
+    A --> X["Decisions · action items<br/>owners · due dates"]
+    X --> T["📋 Trello cards<br/>To Do, auto-assigned"]
+    X --> W["📝 Wrap-up posted<br/>back to Discord"]
+```
+
+</details>
+
+<details>
+<summary><b>📣 AI Marketing Agent</b>: your AI assistant becomes an ad operator over MCP</summary>
+
+```mermaid
+flowchart LR
+    Y["👤 You in Claude · ChatGPT<br/>Gemini · Cursor"] -->|"MCP"| M(["🤖 Ad agent"])
+    M --> B["Brand profile"]
+    M --> C["Find competitors<br/>& their longest-running ads"]
+    M --> K["Keyword research<br/>live Google data"]
+    M --> CL["Clone a proven creative<br/>with your product"]
+    CL --> L["Launch campaign<br/>created paused for review"]
+    L --> P["Meta · Google · TikTok"]
+```
+
+</details>
+
+<details>
+<summary><b>💸 RecoverAI</b>: an orchestrator routes every store signal to a specialist</summary>
+
+```mermaid
+flowchart LR
+    E["🛒 Store events<br/>visits · carts · checkouts · reviews"] --> O(["🧭 Orchestrator"])
+    O --> A1["Customer Intelligence<br/>behaviour & purchase odds"]
+    O --> A2["Revenue Recovery<br/>abandoned-checkout sequences"]
+    O --> A3["Sales<br/>answers questions, closes the sale"]
+    O --> A4["Review Recovery<br/>follows up after delivery"]
+    O --> A5["Business Analyst<br/>explains why revenue moved"]
+    A1 & A2 & A3 & A4 & A5 --> D["📈 Dashboard"]
+```
+
+</details>
+
+<details>
+<summary><b>🩺 Sehat Saathi</b>: first-aid triage built for low-literacy, multilingual users</summary>
+
+```mermaid
+flowchart LR
+    U["👤 Pick a symptom<br/>tap or speak"] --> Q["A few questions<br/>age · how long"]
+    Q --> G{"Danger signs?"}
+    G -->|"yes"| E["🚑 1122 ambulance<br/>nearest hospitals"]
+    G -->|"no"| A["First-aid guidance<br/>read aloud"]
+    A --> D["☎️ 1123 free doctor line"]
+    L["سنڌي · اردو · English"] -.-> Q
+```
+
+</details>
+
+<details>
+<summary><b>📚 RAG Book</b>: an agent that answers only from the textbook</summary>
+
+```mermaid
+flowchart LR
+    R["👤 Reader<br/>Docusaurus book · EN / اردو"] --> C["Chat widget"]
+    C --> API["FastAPI"]
+    API --> A(["🤖 Support agent<br/>OpenAI Agents SDK"])
+    A -->|"search tool"| EM["Embed question<br/>text-embedding-3-small"]
+    EM --> Q[("Qdrant<br/>book chapters")]
+    Q --> A
+    A --> ANS["Answer grounded<br/>in the chapters"]
+    ANS --> R
+    AU[("JWT + Postgres<br/>sign-in · personalisation")] -.-> API
+```
+
+</details>
 
 ### 🧠 How I build agents
 
