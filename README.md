@@ -153,16 +153,17 @@ flowchart LR
 </details>
 
 <details>
-<summary><b>🩺 Sehat Saathi</b>: first-aid triage built for low-literacy, multilingual users</summary>
+<summary><b>🩺 Sehat Saathi</b>: rule-based triage, so no model guesses about someone's health</summary>
 
 ```mermaid
 flowchart LR
-    U["👤 Pick a symptom<br/>tap or speak"] --> Q["A few questions<br/>age · how long"]
-    Q --> G{"Danger signs?"}
-    G -->|"yes"| E["🚑 1122 ambulance<br/>nearest hospitals"]
-    G -->|"no"| A["First-aid guidance<br/>read aloud"]
-    A --> D["☎️ 1123 free doctor line"]
-    L["سنڌي · اردو · English"] -.-> Q
+    U["👤 Pick a condition<br/>Sindhi · Urdu · English"] --> Q["Age, pregnancy if relevant<br/>tick warning signs"]
+    Q --> R{"Doctor-reviewed rules"}
+    R -->|"🔴 red"| E["Hospital NOW<br/>🚑 1122 + first aid while waiting"]
+    R -->|"🟡 yellow"| H["Doctor within 24 h<br/>🏥 nearest RHC · BHU or ☎️ 1123"]
+    R -->|"🟢 green"| A["Home care steps<br/>watch for warning signs"]
+    P["Pregnant? never below yellow<br/>unsafe medicines hidden"] -.-> R
+    E & H & A --> V["🔊 Read aloud in<br/>the user's language"]
 ```
 
 </details>
