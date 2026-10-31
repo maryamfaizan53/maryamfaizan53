@@ -9,7 +9,7 @@
 <p align="center">
   <a href="https://www.maryamfaizan.online/?ask=1"><img src="https://img.shields.io/badge/💬_Ask_my_AI_agent_about_me-A78BFA?style=for-the-badge" alt="Ask my AI agent about me" /></a>
   <a href="https://www.maryamfaizan.online"><img src="https://img.shields.io/badge/Portfolio-maryamfaizan.online-7c6cf0?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Portfolio" /></a>
-  <a href="https://www.linkedin.com/in/maryam-faizan-b86965323"><img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
+  <a href="https://www.linkedin.com/in/maryam-faizan-ai-agents-developer-84465439a"><img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
   <a href="https://x.com/maryammm556"><img src="https://img.shields.io/badge/X-@maryammm556-000000?style=for-the-badge&logo=x&logoColor=white" alt="X" /></a>
   <a href="mailto:maryam.faizanmianoor@gmail.com"><img src="https://img.shields.io/badge/Email-Say_hello-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a>
 </p>
