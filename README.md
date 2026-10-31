@@ -72,11 +72,24 @@ I design, build and ship **AI agents that handle real work**: answering customer
       <code>RAG</code> <code>Embeddings</code> <code>Docusaurus</code>
     </td>
   </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <a href="https://bill-decoder-0.vercel.app/"><img src="https://www.maryamfaizan.online/readme/bill-decoder.jpg" alt="Bill Decoder demo" /></a>
+      <h4>🧾 Bill Decoder · <a href="https://bill-decoder-0.vercel.app/">live ↗</a> · <a href="https://github.com/maryamfaizan53/bill-decoder">code</a></h4>
+      Reads K-Electric, LESCO and IESCO electricity bills from a phone photo and explains them in plain English. <b>Three readings, majority-voted, every total checked in code</b>: no number is guessed. Built for <b>Women Tech Quest 2026</b>.<br/><br/>
+      <code>Next.js</code> <code>Claude vision</code> <code>TypeScript</code> <code>Majority voting</code>
+    </td>
+    <td width="50%" valign="top">
+      <a href="https://instant-stellar-portfolios.vercel.app/"><img src="https://www.maryamfaizan.online/readme/portfolioforge.jpg" alt="PortfolioForge demo" /></a>
+      <h4>✨ PortfolioForge · <a href="https://instant-stellar-portfolios.vercel.app/">live ↗</a></h4>
+      An AI portfolio builder: pick a template, tune colours, type and layout with a <b>live preview</b>, and a step-by-step wizard turns your details into a deployable portfolio.<br/><br/>
+      <code>LLM</code> <code>Next.js</code> <code>Vercel</code>
+    </td>
+  </tr>
 </table>
 
 <p align="center">
-  More: <a href="https://instant-stellar-portfolios.vercel.app/"><b>PortfolioForge</b></a>, an AI portfolio builder ·
-  <a href="https://www.aibazar.pk"><b>AI Bazar</b></a>, my store with 200+ products ·
+  More: <a href="https://www.aibazar.pk"><b>AI Bazar</b></a>, my store with 200+ products ·
   <a href="https://www.maryamfaizan.online/#work"><b>all demos →</b></a>
 </p>
 
@@ -182,6 +195,24 @@ flowchart LR
     A --> ANS["Answer grounded<br/>in the chapters"]
     ANS --> R
     AU[("JWT + Postgres<br/>sign-in · personalisation")] -.-> API
+```
+
+</details>
+
+<details>
+<summary><b>🧾 Bill Decoder</b>: a vision pipeline that checks its own reading before it answers</summary>
+
+```mermaid
+flowchart LR
+    I["📷 Bill photo<br/>K-Electric · LESCO · IESCO"] --> P["Prepare image<br/>rotate · contrast · sharpen<br/>full page + zoomed halves"]
+    P --> V1["Reading 1"] & V2["Reading 2"] & V3["Reading 3"]
+    V1 & V2 & V3 --> N["Normalise in code<br/>38209CR → −38209 · dates"]
+    N --> M{"Majority vote<br/>per field"}
+    M --> C{"Do the sums agree?<br/>lines = subtotal · bill + dues = payable"}
+    C -->|"yes"| J["Structured bill<br/>no names, CNIC or account nos."]
+    C -->|"no"| R["Re-read only those fields<br/>kept only if fewer problems"]
+    R --> J
+    J --> Q["💬 Questions answered<br/>numbers calculated in code"]
 ```
 
 </details>
